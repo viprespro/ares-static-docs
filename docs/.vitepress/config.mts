@@ -1,8 +1,8 @@
 import { defineConfig } from 'vitepress'
 
 export default defineConfig({
-  title: "Ares Docs",
-  description: "Ares 静态文档站点",
+  title: "无极助手",
+  description: "无极助手使用指南",
   lang: 'zh-CN',
   cleanUrls: true,
   lastUpdated: true,
@@ -13,64 +13,46 @@ export default defineConfig({
 
   themeConfig: {
     logo: '/logo.svg',
-    siteTitle: 'Ares Docs',
+    siteTitle: '无极助手',
     
     nav: [
       { text: '首页', link: '/' },
-      { text: '指南', link: '/guide/' },
-      { text: '工具', link: '/tool/' },
-      { text: 'API', link: '/api/' }
+      { text: '使用说明', link: '/apps/wuji-assistant/' }
     ],
 
     sidebar: {
-      '/guide/': [
-        {
-          text: '开始',
-          items: [
-            { text: '介绍', link: '/guide/' },
-            { text: '快速开始', link: '/guide/getting-started' }
-          ]
-        }
-      ],
-      '/tool/': [
+      '/apps/wuji-assistant/': [
         {
           text: '开始使用',
           items: [
-            { text: '工具介绍', link: '/tool/' },
-            { text: '安装与配置', link: '/tool/installation' },
-            { text: '快速上手', link: '/tool/quick-start' }
+            { text: '简介', link: '/apps/wuji-assistant/' },
+            { text: '快速开始', link: '/apps/wuji-assistant/quick-start' },
+            { text: '激活授权', link: '/apps/wuji-assistant/activation' },
+            { text: '基础使用', link: '/apps/wuji-assistant/basic-usage' }
           ]
         },
         {
-          text: '游戏设置',
+          text: '功能说明',
           items: [
-            { text: '基础设置', link: '/tool/game-settings' },
-            { text: '高级配置', link: '/tool/advanced-settings' }
+            { text: '功能详解', link: '/apps/wuji-assistant/features' }
           ]
         },
         {
           text: '帮助',
           items: [
-            { text: '常见问题', link: '/tool/faq' }
-          ]
-        }
-      ],
-      '/api/': [
-        {
-          text: 'API 参考',
-          items: [
-            { text: '概览', link: '/api/' }
+            { text: '常见问题', link: '/apps/wuji-assistant/faq' },
+            { text: '更新日志', link: '/apps/wuji-assistant/changelog' }
           ]
         }
       ]
     },
 
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/yourusername/ares-static-docs' }
+      { icon: 'github', link: 'https://github.com/yourusername/wuji-assistant' }
     ],
 
     footer: {
-      message: '基于 VitePress 构建',
+      message: '感谢您的支持',
       copyright: 'Copyright © 2024-present'
     },
 
