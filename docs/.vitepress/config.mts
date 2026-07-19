@@ -26,7 +26,6 @@ export default defineConfig({
           text: '开始使用',
           items: [
             { text: '简介', link: '/apps/wuji-assistant/' },
-            { text: '快速开始', link: '/apps/wuji-assistant/quick-start' },
             { text: '激活授权', link: '/apps/wuji-assistant/activation' },
             { text: '基础使用', link: '/apps/wuji-assistant/basic-usage' }
           ]
