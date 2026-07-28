@@ -13,7 +13,7 @@ hero:
 features:
   - icon: 🎮
     title: 无极助手
-    details: 天龙八部游戏辅助工具，支持自动打怪、技能调度、断线重连等功能
+    details: 天龙八部游戏辅助工具，支持自动打怪、峨眉加血、定点打怪、死亡回点、刷马贼检测、配置预设等丰富功能
     link: /apps/wuji-assistant/
     linkText: 查看说明
 ---

@@ -37,6 +37,14 @@ export default defineConfig({
           ]
         },
         {
+          text: '配置参考',
+          items: [
+            { text: '副本打怪', link: '/apps/wuji-assistant/config-dungeon' },
+            { text: '刷马贼', link: '/apps/wuji-assistant/config-horse' },
+            { text: '野外挂机', link: '/apps/wuji-assistant/config-field' }
+          ]
+        },
+        {
           text: '帮助',
           items: [
             { text: '常见问题', link: '/apps/wuji-assistant/faq' },
